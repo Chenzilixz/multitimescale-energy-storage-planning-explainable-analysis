@@ -1,0 +1,2 @@
+.workspace-privacy{display:flex;align-items:center;gap:12px;padding:10px 14px;background:#eaf5f2;border:1px solid #cbe6dd;color:#397565;border-radius:6px;margin:0 0 12px;font-size:11px;line-height:1.8}.workspace-privacy strong{white-space:nowrap;font-size:12px}.site-title span{letter-spacing:.5px}.utility-nav .tag.local{font-size:10px}
+@media(max-width:850px){.workspace-privacy{align-items:flex-start;flex-direction:column;gap:3px}.utility-nav{flex-wrap:wrap}}

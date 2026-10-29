@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>储能规划可解释分析 · 独立工作区</title>
+  <link rel="stylesheet" href="/static/style.css?v=public-v1">
+  <link rel="stylesheet" href="/static/ppt-theme.css?v=public-v1">
+  <script defer src="/static/vendor/plotly.min.js?v=public-v1"></script>
+  <script defer src="/static/vendor/jszip.min.js?v=public-v1"></script>
+  <script defer src="/static/schema.js?v=public-v1"></script>
+  <script defer src="/static/engine.js?v=public-v1"></script>
+  <script defer src="/static/client-api.js?v=public-v1"></script>
+  <script defer src="/static/app.js?v=public-v1"></script>
+  <script defer src="/static/ppt-theme.js?v=public-v1"></script>
+<script defer src="/static/public-ui.js?v=public-v1"></script>
+  <link rel="stylesheet" href="/static/public.css?v=public-v1">
+</head>
+<body>
+<header class="site-header">
+  <a href="#home" class="site-title">多时间尺度储能协同规划与可解释分析<span>面向新型电力系统新能源消纳能力提升</span></a>
+  <div class="utility-nav"><a href="#home" data-nav="home">工作台</a><a href="#reports" data-nav="reports">运行记录与报告</a><button class="small" id="presentationLayout" aria-pressed="false" title="使用宽屏布局进行演示，也可切回自适应布局">演示布局</button><span class="tag local"><i class="status-light"></i>浏览器独立计算</span></div>
+</header>
+<nav class="primary-nav" aria-label="平台主要功能">
+  <a href="#data" data-nav="data"><span data-icon="database"></span><b>01</b> 输入边界</a>
+  <a href="#plans" data-nav="plans"><span data-icon="chart"></span><b>02</b> 规划结果</a>
+  <a href="#economy" data-nav="economy"><span data-icon="layers"></span><b>03</b> 经济性可解释分析</a>
+  <a href="#carbon" data-nav="carbon"><span data-icon="leaf"></span><b>04</b> 低碳性可解释分析</a>
+</nav>
+<div class="workspace">
+  <div id="breadcrumb" hidden>工作台</div>
+  <main id="main" tabindex="-1"></main>
+  <footer class="page-footer"><span>多时间尺度储能协同规划可解释分析</span><span>数据校验 · 预测评估 · SHAP解释 · 结果追溯</span></footer>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<input id="uploadFile" type="file" accept=".xlsx,.csv" hidden>
+</body></html>

@@ -1,0 +1,13 @@
+.git/
+.vercel/
+.openai/
+.runtime/
+.env*
+*.log
+*.xlsx
+*.xls
+*.csv
+*.pdf
+*.pptx
+*.zip
+*.tar.gz
